@@ -4,5 +4,6 @@ def run_guessing_game
   ran_num = rand(6) + 1 
   
   puts "Goodbye!" if inp == "exit"
+  puts ""
 end 
   
