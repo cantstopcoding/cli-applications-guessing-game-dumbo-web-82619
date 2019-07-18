@@ -4,7 +4,7 @@ def run_guessing_game
   ran_num = rand(6) + 1 
   
   if inp == ran_num.to_s 
-    puts "Sorry! The computer guessed #{rando}."
+    puts "Sorry! The computer guessed #{ran_num}."
   end 
 end 
   
