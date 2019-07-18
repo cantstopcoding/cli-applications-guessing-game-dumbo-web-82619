@@ -5,6 +5,6 @@ def run_guessing_game
   
   puts "Goodbye!" if inp == "exit"
   puts "Sorry! The computer guessed #{ran_num}." if inp.to_i == ran_num
-  puts "You guessed the correct number!" if inp == ran.to_s
+  puts "You guessed the correct number!" if inp == ran_num.to_s
 end 
   
